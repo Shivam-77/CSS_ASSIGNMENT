@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ragistration Form</title>
+    <!-- Student Ragistration Form -->
+    <style>
+    .body1{
+        background-color: aqua;
+    }
+    .head{
+            
+            border: black;
+            border-width: 10px;
+            border-style: double;
+            margin-left: 20px;
+          
+    
+    
+        }
+        .h1{
+            text-align: center;
+        }
+        .tabl{
+            margin-left: 30px;
+            margin-top: 20px;
+        }
+        .sec {
+        width: 400px;
+
+        padding: 7px;
+
+      }
+      .inp{
+          width: 200px;
+          
+      }
+
+    </style>
+</head>
+<body class="body1">
+    <form action="">
+    <div class="head">
+        <h1 class="h1">STUDENT REGISTRATION FORM</h1>
+    </div>
+    <table class="tabl">
+        <tr>
+            <td>Name:</td>
+            <td class="sec"><input type="text" placeholder="Enter Full Name" style="width: 200px;"></td>
+        </tr>
+        <tr>
+            <td>Father's Name:</td>
+            <td class="sec"><input type="text" placeholder="Enter You Father's Name" class="inp"></td>
+
+        </tr>
+        <tr>
+            <td>Mother's Name:</td>
+            <td class="sec"><input type="text" placeholder="Enter Your Mother's Name" class="inp"></td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td class="sec"><input type="text" placeholder="abcdef@shivam.com" class="inp"></td>
+        </tr>
+        <tr>
+            <td>Phone Number:</td>
+            <td class="sec"><input type="text" placeholder="xxxxx1234" class="inp"></td>
+        </tr>
+        <tr>
+            <td>Gender:</td>
+            <td  class="sec">
+                <input type="radio" ><label for="male">Male</label>
+                <input type="radio" style="margin-left: 0px;"><label for="female">Female</label>
+                <input type="radio" style="margin-left:0px;"><label for="other">Other</label>            
+            </td>
+        </tr>
+        <tr>
+            <td>Date Of Birth:</td>
+            <td class="sec">
+                <input type="text" style="width: 20px; margin-left: 5px;"><label for="bas">-</label>
+                <input type="text" style="width:20px"><label for="bas1">-</label>
+                <input type="text" style="width: 20px;"><label for="bas2"><i style="font-size: 12px;">(dd-mm-yyyy)</i></label>
+            </td>
+        </tr>
+        <tr>
+            <td>Address:</td>
+            <td class="sec"><textarea name="address" id="20" cols="30" rows="10" placeholder="House:-         Street:-"></textarea></td>
+        </tr>
+        <tr>
+            <td>Blood Group:</td>
+            <td class="sec"><select name="blood">
+                <option value="12">Select</option>
+                <option value="1">O+</option>
+                <option value="2">O-</option>
+                <option value="3">A+</option>
+                <option value="4">A-</option>
+                <option value="5">B+</option>
+                <option value="6">B-</option>
+
+
+            </select></td>
+        </tr>
+        <tr>
+            <td>Hobbies:</td>
+            <td class="sec"><input type="checkbox"><label for="play">Cricket</label>
+                <input type="checkbox"><label for="play1">Football</label>
+                <input type="checkbox"><label for="play3">Chess</label>
+                <input type="checkbox"><label for="sing">Singing</label>
+                <input type="checkbox"><label for="danc">Dancing</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Department:</td>
+            <td class="sec">
+                <input type="radio"><label for="B.tech">CSE</label>
+                <input type="radio"><label for="B.tech">Mech</label>
+                <input type="radio"><label for="B.tech">EE</label>
+                <input type="radio"><label for="B.tech">ECE</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Course:
+            </td>
+            <td class="sec">
+                <input type="checkbox"><label for="tech">C</label>
+                <input type="checkbox"><label for="tech1">C++</label>
+                <input type="checkbox"><label for="tech2">Python</label>
+                <input type="checkbox"><label for="tech3">JAVA</label>
+                <input type="checkbox"><label for="tech4">AI</label>
+                <input type="checkbox"><label for="tech5">ML</label>
+
+            </td>
+        </tr>
+        <tr>
+            <td>Photo:</td>
+            <td class="sec"><input type="file" name="photo"></td>
+        </tr>
+        <tr>
+            <td>
+                <Button>Submit</Button>
+            </td>
+            <td>
+                <button>Reset</button>
+            </td>
+            <td>
+                <button>
+                    Login
+                </button>
+            </td>
+        </tr>
+        
+            
+                
+        
+
+
+    </table>
+    </form>
+    
+</body>
+</html>
