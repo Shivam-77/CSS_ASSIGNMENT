@@ -1,0 +1,45 @@
+.body{
+    background-color: rgb(24, 102, 211);
+    align-content: center;
+    background-image: url("./back.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.form1{
+    text-align: center;
+}
+.head{
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 50px;
+  color: cornsilk;
+}
+.main{
+    margin: auto 495px;
+    height: 220px;
+    width: 400px;
+
+    
+}
+table{
+    border-spacing: 0 15px;
+}
+button{
+    margin: auto 630px;
+    border-radius: 4px;
+    color: rgb(92, 88, 92);
+    background-color: rgb(9, 176, 202);
+    border-color: rgb(11, 136, 245);
+}
+.inpu{
+   
+   
+    background-color: aqua;
+    border-color: aqua;
+}
+.da{
+ color: rgb(12, 202, 219)
+}
