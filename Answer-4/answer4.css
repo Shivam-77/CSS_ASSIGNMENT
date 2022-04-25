@@ -1,0 +1,19 @@
+hr{
+    height: 15px;
+    background-color: aqua;
+}
+.main{
+ float: left;
+}
+#first{
+    float: left;
+    width: 100px;
+    background-color: blue;
+}
+#second{
+    
+    float: right;
+    width: 100px;
+
+
+}
